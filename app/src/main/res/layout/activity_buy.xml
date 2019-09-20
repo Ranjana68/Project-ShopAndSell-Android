@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buy">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_weight="1"
+          android:background="@drawable/cloth"
+          android:layout_width="match_parent"
+          android:layout_height="60dp" />
+      <TextView
+          android:layout_weight="1"
+          android:background="@drawable/book"
+          android:layout_width="match_parent"
+          android:layout_height="60dp" />
+      <TextView
+          android:layout_weight="1"
+          android:background="@drawable/coat"
+          android:layout_width="match_parent"
+          android:layout_height="60dp" />
+      <TextView
+          android:layout_weight="1"
+          android:background="@drawable/box"
+          android:layout_width="match_parent"
+          android:layout_height="60dp" />
+   </LinearLayout>
+   <TextView
+       android:layout_marginTop="65dp"
+       android:textColor="@color/blue"
+       android:gravity="center"
+       android:textSize="22dp"
+       android:layout_gravity="center"
+       android:text="SELECT ITEM TO BUY"
+       android:textStyle="bold"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <ListView
+       android:layout_gravity="center"
+       android:layout_marginTop="105dp"
+       android:id="@+id/lv"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>

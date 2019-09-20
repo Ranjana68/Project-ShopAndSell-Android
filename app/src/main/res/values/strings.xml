@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shop and Sell</string>
+
+    <string-array name="data">
+
+        <item>Select category</item>
+        <item>Study Material</item>
+        <item>Clothes</item>
+        <item>Lab Coats</item>
+        <item>Others</item>
+
+
+    </string-array>
+
+</resources>
