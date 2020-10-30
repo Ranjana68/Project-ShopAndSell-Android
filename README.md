@@ -19,6 +19,9 @@ clone and run the project
 
 Usage: 
 Refer the following diagram to understand the flow of the application
+
 ![](Shop and Sell WorkFlow.PNG)
+
+
 
 
